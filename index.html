@@ -22,7 +22,7 @@
 <body>
     <header>
         <!--MENÚ DE NAVEGACIÓN-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Offcanvas navbar large">
             <div class="container-fluid">
                 <a class="navbar-brand text-danger" href="#">#MiPortafolioWeb</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -61,11 +61,110 @@
                 </div>
             </div>
         </nav>
-
     </header>
+    <main>
+        <section id="inicio" class="inicio">
+            <div class="card">
+                <center>
+                    <div class="profileimage d-flex justify-content-center align-items-center">
+                        <img src="./assets/Foto.png" alt="Foto">
+                    </div>
+                    <div class="Name">
+                        <p class="text-danger">Maicol Chalco <br><span class="texto">Programador Web</span></p>
+                    </div>
+                    <div class="socialbar">
+                        <a id="facebook" href="https://www.facebook.com/profile.php?id=61551926236298"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        &nbsp;
+                        &nbsp;
+                        <a id="instagram" href="https://www.instagram.com/maicolchalco/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        &nbsp;
+                        &nbsp;
+                        <a id="github" href="https://github.com/Maicol843"><i class="fa-brands fa-github"></i></a>
+                        &nbsp;
+                        &nbsp;
+                        <a id="linkedin" href="https://www.linkedin.com/in/maicolchalco/"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        &nbsp;
+                        &nbsp;
+                        <a id="whatsapp" href="https://wa.me/5493884979421"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </center>
+            </div>
+        </section>
+        <section id="sobre-mi" class="sobre-mi">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-center text-danger">Sobre mi</h1>
+
+                    <p class="texto"> Hola soy <span class="text-light">Maicol Chalco.</span> Programador,
+                        innovador,
+                        proactivo y con capacidad para desarrollar páginas web elegantes
+                        y diseños de aplicaciones para clientes exigentes.
+                        Organizado y con capacidad de multitareas con experiencia en
+                        programación de proyectos, mejora de diseños y verificación del
+                        código.
+                        Soy una persona que se esfuerza en todo momento por
+                        garantizar la satisfacción del cliente. Cuento con
+                        experiencia y un sólido conocimiento del sector. Tengo
+                        facilidad para trabajar tanto en equipo como de forma
+                        independiente, según las necesidades.
+                    </p>
+
+                    <div class="col-md-6">
+                        <h2 class="text-danger">Datos Personales</h2>
+                        <p class="texto"><span class="text-light">Cumpleaños: </span>13-03-1989</p>
+                        <p class="texto"><span class="text-light">Teléfono: </span>3884979421</p>
+                        <p class="texto"><span class="text-light">Email: </span>mdmch13@gmail.com</p>
+                        <p class="texto"><span class="text-light">Sitio Web: </span>www.tudiseñoweb.com</p>
+                        <p class="texto"><span class="text-light">Dirección: </span>Manzana 6 Lote 19 Calle Bahía
+                            Agradable Bº Éxodo Jujeño Alto Comedero</p>
+                        <p class="texto"><span class="text-light">País / Provincia: </span>Argentina - Jujuy</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="text-danger">Intereses</h2>
+                        <div class="contenedor-intereses text-light">
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones fs-1"></i>
+                                <span>Música</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-plane fs-1"></i>
+                                <span>Viajes</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad fs-1"></i>
+                                <span>Juegos</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-graduation-cap fs-1"></i>
+                                <span>Estudios</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-regular fa-futbol fs-1"></i>
+                                <span>Deportes</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-dumbbell fs-1"></i>
+                                <span>Gimnasio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="./assets/Curriculum.pdf" download="CV">
+                            <button type="button" class="btn btn-danger"><i class="fa-solid fa-download"></i> Descargar
+                                CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 <!--BOOTSTRAP-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+
 </html>

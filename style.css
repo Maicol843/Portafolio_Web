@@ -1,21 +1,168 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
 
 /*==GENERAL==*/
-*{
-    font-family: 'Roboto',sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 html {
-    /* Me permite deslizar cuando hago clic en los links del menu */
-    scroll-behavior: smooth;
+  /* Me permite deslizar cuando hago clic en los links del menu */
+  scroll-behavior: smooth;
+}
+
+.texto {
+  color: rgb(146, 146, 146);
+  text-align: justify;
+}
+
+h1,
+h2 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 /*==MENU DE NAVEGACIóN==*/
 .nav-link {
-    color: grey;
+  color: grey;
 }
 
 .nav-link:hover {
-    color: crimson;
+  color: crimson;
 }
+
+/*==INICIO==*/
+.inicio {
+  background: linear-gradient(
+      to top,
+      rgba(30, 35, 38, 0.8),
+      rgba(30, 35, 38, 1)
+    ),
+    url(assets/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.card {
+  width: 250px;
+  height: 320px;
+  border-radius: 0.8em;
+  padding: 10px;
+  background-color: #191919;
+  box-shadow: 5px 5px 30px rgb(4, 4, 4), -5px -5px 30px rgb(57, 57, 57);
+}
+
+.profileimage {
+  background-color: transparent;
+  border: none;
+  margin-top: 30px;
+  border-radius: 5em;
+  width: 100px;
+  height: 100px;
+}
+
+.profileimage img {
+  width: 120%;
+  border: 3px solid rgb(243, 35, 35);
+  border-radius: 60px;
+}
+
+.pfp {
+  border-radius: 35em;
+  fill: white;
+}
+
+.Name {
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.socialbar {
+  background-color: #191919;
+  border-radius: 4em;
+  width: 100%;
+  padding: 5px;
+  margin-top: -5px;
+  color: white;
+  box-shadow: 3px 3px 15px rgb(0, 0, 0), -3px -3px 15px rgb(58, 58, 58);
+}
+
+.card a {
+  transition: 0.4s;
+  color: white;
+}
+
+#github,
+#instagram,
+#facebook,
+#linkedin,
+#whatsapp {
+  font-size: 1.5em;
+}
+
+#github:hover {
+  color: #ff5f03;
+}
+
+#instagram:hover {
+  color: #d62976;
+}
+
+#facebook:hover {
+  color: #3b5998;
+}
+
+#linkedin:hover {
+  color: #00acee;
+}
+
+#whatsapp:hover {
+  color: springgreen;
+}
+
+/*==SOBRE MÍ==*/
+.sobre-mi {
+  background: linear-gradient(
+      to top,
+      rgba(30, 35, 38, 0.8),
+      rgba(30, 35, 38, 1)
+    ),
+    url(assets/fondo_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center center;
+  font-size: 0.9em;
+}
+
+.contenedor-intereses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.interes {
+  width: 90px;
+  height: 90px;
+  background-color: #252a2eab;
+  border-radius: 20px;
+  margin: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
