@@ -349,3 +349,55 @@ h2 {
   border-radius: 5px;
 }
 
+/*==FOOTER==*/
+footer {
+  background-color: #1e2326;
+  color: rgb(146, 146, 146);
+  padding: 15px 0 5px 0;
+  text-align: center;
+  position: relative;
+}
+
+footer .redes {
+  margin-bottom: 20px;
+}
+
+footer .redes a {
+  color: rgb(146, 146, 146);
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid rgb(146, 146, 146);
+  background-color: black;
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  margin: 20px 5px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+footer .redes a:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: crimson;
+}
+
+footer .arriba {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: crimson;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -20px;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+footer .copy {
+  font-size: 0.8em;
+}
