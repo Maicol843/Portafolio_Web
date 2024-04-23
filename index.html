@@ -705,6 +705,69 @@
                 </div>
             </div>
         </section>
+        <!--SECCIÓN CONTACTO-->
+        <section id="contacto" class="contacto">
+            <div class="container">
+                <h1 class="text-center text-danger pt-5 pb-3">Contacto</h1>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4">
+                        <form id="miFormulario" class="ms-5" name="miFormulario" method="POST"
+                            action="../php/enviar.php">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control bg-dark text-secondary" id="nombre" name="nombre"
+                                    placeholder="Escribe tu nombre completo" required>
+                                <label for="nombre" class="text-secondary">Nombre Completo</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control bg-dark text-secondary" id="telefono"
+                                    name="telefono" placeholder="Escribe tu numero de teléfono">
+                                <label for="telefono" class="text-secondary">Teléfono</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control bg-dark text-secondary" id="correo"
+                                    name="correo" placeholder="Escribe tu correo electrónico">
+                                <label for="correo" class="text-secondary">Email</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="mensaje" class="form-control bg-dark text-secondary" id="asunto"
+                                    id="asunto" placeholder="Escribe un mensaje">
+                                <label for="asunto" class="text-secondary">Asunto</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control bg-dark text-secondary" placeholder="Leave a comment here"
+                                    id="mensaje" class="mensaje" style="height: 100px"></textarea>
+                                <label for="mensaje" class="text-secondary">Comentarios</label>
+                            </div>
+                            <div class="contenedor d-flex align-items-center justify-content-center">
+                                <button type="reset" name="Reset" value="Borrar" class="btn btn-danger me-3">
+                                    <i class="fa-solid fa-trash-can"></i> Borrar
+                                </button>
+                                <button type="submit" name="mensaje" value="Enviar" class="btn btn-danger">
+                                    <i class="fa-solid fa-paper-plane"></i> Enviar
+                                </button>
+                                <a href="mailto:desarrolladorweb.jujuy24@gmail.com" id="truco">mail</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 mapa position-relative">
+                        <div class="position-absolute top-50 start-50 translate-middle contenedor-info">
+                            <p class="texto"><i class="fa-solid fa-location-dot text-danger"></i> Dirección: Calle
+                                Algarrobo, M71 L3
+                                <br>Barrio Los Manzanos - Los Alisos
+                            </p>
+                            <p class="texto"><i class="fa-solid fa-mobile-screen text-danger"></i> Contactame:
+                                3884979421</p>
+                            <p class="texto"><i class="fa-solid fa-envelope text-danger"></i> Correo electrónico:
+                                <br>desarrolladorweb.jujuy24@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 <!--BOOTSTRAP-->
@@ -712,5 +775,6 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 <script src="script.js"></script>
+<script src="contacto.js"></script>
 
 </html>
